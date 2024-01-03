@@ -1,0 +1,124 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: url(./assets/matt-dodd-jiw9ArlI3xE-unsplash.jpg);
+  filter: blur(4px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contents {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input-box {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+}
+@media (max-width: 460px) {
+  .input-box {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+  }
+}
+
+input {
+  padding: 12px 10px;
+  width: 100%;
+  font-size: 20px;
+  letter-spacing: 2px;
+  background: transparent;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+input::-moz-placeholder {
+  color: white;
+  letter-spacing: 2px;
+}
+input::placeholder {
+  color: white;
+  letter-spacing: 2px;
+}
+
+i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.temp {
+  margin: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 4px solid white;
+}
+.temp h1 {
+  padding-top: 2rem;
+  font-size: 120px;
+  font-weight: bold;
+}
+@media (max-width: 460px) {
+  .temp h1 {
+    padding-top: 2rem;
+    font-size: 90px;
+    font-weight: bold;
+  }
+}
+.temp p {
+  margin: 2rem 0;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.city {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.details-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 5rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.details h1,
+.details h3 {
+  font-size: 30px;
+}
+
+#error {
+  text-align: center;
+  padding-top: 0.5rem;
+}/*# sourceMappingURL=style.css.map */
